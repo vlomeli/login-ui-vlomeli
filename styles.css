@@ -11,7 +11,7 @@ min-height: 400px;
 border: 5px solid orange;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 margin: auto;
-margin-top: 50px;
+margin-top: 200px;
 background-color: orange;
 border-radius: 10px;
 }
@@ -25,15 +25,15 @@ border-radius: 10px;
     margin: 40px;
 }
 
-.box {
+.input {
     padding: 12px;
     margin: 15px;
     width: 65%;
 }
 
-#submit{
+#button {
     padding: 12px;
-    width: 50%;
+    width: 60%;
     margin: 40px;
     background-color: white;
     font-size: 1rem;
@@ -43,7 +43,7 @@ border-radius: 10px;
     border-radius: 10px;
 }
 
-#submit:hover{
+#button:hover {
     cursor: pointer;
     background-color: orangered;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
@@ -58,7 +58,7 @@ border-radius: 10px;
 
 .form a:hover{
     background-color: transparent;
-    color: blue;
+    color: orangered;
     text-decoration: underline;
 }
 
